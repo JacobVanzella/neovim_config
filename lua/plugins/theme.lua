@@ -10,7 +10,15 @@ return {
                 sidebars = 'transparent',
                 floats = 'transparent',
             },
-            sidebars = { 'qf', 'help' },
+            --sidebars = { 'qf', 'help' },
+            on_highlights = function(hl, c)
+                hl.LineNr = {
+                    fg = c.orange,
+                }
+                hl.Comment = {
+                    fg = c.none,
+                }
+            end
         })
 
         vim.cmd([[colorscheme tokyonight]])

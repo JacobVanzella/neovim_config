@@ -18,7 +18,7 @@ vim.keymap.set("v", "<leader>y", "\"+Y")
 
 -- Functional remaps
 vim.keymap.set("i", "<c-c>", "<Esc>")
--- vim.keymap.set("n", "-", vim.cmd.Ex)
+--vim.keymap.set("n", "-", vim.cmd.Ex)
 vim.keymap.set("n", "<c-d>", "<c-d>zz")
 vim.keymap.set("n", "<c-u>", "<c-u>zz")
 vim.keymap.set("n", "n", "nzzzv");

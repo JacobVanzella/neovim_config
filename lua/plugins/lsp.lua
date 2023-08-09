@@ -57,13 +57,14 @@ return {
 
         -- Enable language servers
         local servers = {
-            rust_analyzer = {},
             lua_ls = {
                 Lua = {
                     workspace = { checkThirdParty = false },
                     telemetry = { enabled = false },
                 },
             },
+            pyright = {},
+            rust_analyzer = {},
         }
 
         -- Setup neovim lua configuration
