@@ -10,8 +10,8 @@ end
 
 M.nmap = bind("n", { noremap = false })
 M.nnoremap = bind("n")
-M.vnoremap = bind("x")
-M.xnoremap = bind("v")
+M.vnoremap = bind("v")
+M.xnoremap = bind("x")
 M.inoremap = bind("i")
 
 return M
