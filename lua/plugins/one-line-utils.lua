@@ -6,5 +6,7 @@ return {
     -- Key hints (nice)
     { 'folke/which-key.nvim',  opts = {} },
     -- Git integration
-    'tpope/vim-fugitive'
+    'tpope/vim-fugitive',
+    -- CSV
+    'mechatroner/rainbow_csv',
 }

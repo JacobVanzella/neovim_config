@@ -7,6 +7,10 @@ return {
 
         -- LSP completion
         'hrsh7th/cmp-nvim-lsp',
+
+        -- Other sources
+        'hrsh7th/cmp-nvim-lua',
+        'hrsh7th/cmp-path',
     },
     config = function()
         local cmp = require 'cmp'
@@ -50,6 +54,8 @@ return {
                 end, { 'i', 's' }),
             },
             sources = {
+                { name = 'path' },
+                { name = 'nvim_lua' },
                 { name = 'nvim_lsp' },
                 { name = 'luasnip' },
             },
